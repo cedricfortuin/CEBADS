@@ -1,12 +1,19 @@
 {
   "name": "cebads",
   "version": "1.0.0",
+  "type": "module",
   "description": "Comprehensive Epilepsy Brain Analysis and Detection System",
   "main": "index.js",
   "scripts": {
+    "start": "node index.js",
     "test": "echo \"Error: no test specified\" && exit 1"
   },
   "keywords": [],
   "author": "Cedric Fortuin",
-  "license": "ISC"
+  "license": "ISC",
+  "dependencies": {
+    "@tensorflow/tfjs": "^4.4.0",
+    "path": "^0.12.7",
+    "url": "^0.11.0"
+  }
 }
