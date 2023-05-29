@@ -7,7 +7,7 @@ CEBADS is a comprehensive epilepsy brain analysis and detection system. It is a 
 upload MRI scans and get analysis of the brain, stating if the current scan contains a tumor or not. The system is able
 to detect the presence of epilepsy in the brain.
 
-## Filestructure
+## Data filestructure
 The data folder contains the training and testing data. The training data is used to train the model, while the testing.
 The structure is as follows:
 <pre>
@@ -26,6 +26,11 @@ The structure is as follows:
         ├── notumor
         └── pituitary
 </pre>
+
+
+## The future of the project
+In the future I am planning to extend this AI to being able to detect 
+multiple brain deceases, like Alzheimer's and other forms of dementia.
 
 
 ## Copyright
